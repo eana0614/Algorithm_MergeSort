@@ -51,7 +51,7 @@ public class MergeSort {
 		}
 	}
 
-	private static int[] divideArrayBack(int[] readArray) {
+	private static int[] divideArrayFront(int[] readArray) {
 		int length = readArray.length;
 		int[] result = new int[length/2];
 		
@@ -63,7 +63,7 @@ public class MergeSort {
 	}
 
 
-	private static int[] divideArrayFront(int[] readArray) {
+	private static int[] divideArrayBack(int[] readArray) {
 		int length = readArray.length;
 		int[] result = new int[length-length/2];
 		int start = length/2;
